@@ -1,0 +1,301 @@
+*{
+    font-family: sans-serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.navbutton:hover{
+color:#007bff
+}
+header {
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 20px;
+    border-bottom-style:inset ;
+    border-bottom-width:8px ;
+}
+header .logo {
+    font-size: 30px;
+    font-weight: 500;
+    color: #276cb6;
+}
+.accu{
+
+}
+
+header .logo img{
+    left: 17px;
+    position: relative;
+    top: 6px;
+}
+header nav {
+    display: flex;
+    gap: 20px;
+}
+header nav a {
+    text-decoration: none;
+    color: #333;font-weight: 500;
+}
+.cta-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.hero-section {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #ffffff;
+}
+.hero-section h1 {
+    font-size: 51px;
+    width: 119%;
+    color:  #007bff;
+    text-align: left;
+}
+.hero-section p {
+    font-size: 18px;
+    color: #666;
+}
+.services-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 20px;
+    background-color: #fff;
+}
+.service {
+    display:inline-block;
+    text-align: center;
+    max-width: 200px;
+}
+.service img {
+    display: inline-block;
+    max-width: 100%;
+}
+.service21{
+    display: flex;
+}
+.service22{
+    display: flex;
+}
+
+.service h3 {
+    font-size: 20px;
+    color: #333;
+    margin: 10px 0;
+}
+.service p {
+    font-size: 16px;
+    color: #666;
+}
+.cta-section {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #007bff;
+    color: #fff;
+}
+.cta-section h2 {
+    font-size: 28px;
+}
+.cta-section p {
+    font-size: 18px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    font-size: 25px;
+    }
+.text {
+    flex: 1;
+    padding-right: 20px;
+    text-align: left;
+    }
+.image {
+    flex: 1;
+    text-align: right;
+    }
+
+
+
+
+    /* block2 */
+
+    .block2{
+        
+      
+    }
+
+
+    .FirstRow,.SecondRow{
+        height: 250px;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+
+    .InnovativeDiv{
+        background-color:transparent;
+        height: 100%;
+        width: 600px;
+        display: flex;
+        /* flex-direction: column; */
+    }
+
+    .ImageDiv{
+
+        width: 37%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ImageDiv img{
+        height: 150px;
+        width: 150px;
+        background-color: transparent;
+
+    }
+
+    .ContentDiv{
+        width: 50%;
+        background-color: transparent;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+
+
+    .ContentDiv p{
+        font-weight: 700;
+        font-size:22px;
+       
+    }
+
+
+    .ContentDiv div{
+        font-weight: 500;
+        font-size: 19px;
+        color: #666;
+        
+    }
+
+.SecondRow{
+    justify-content: center;
+}
+.Elevate{
+    padding: 100px;
+    font-size: 40px;
+    font-weight: 700;
+    color: #007bff;
+    text-align: center;
+    width: 55%;
+    margin: 0px auto;
+}
+.subrow1,.subrow2{
+    height: 260px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.imgrow1{
+
+    width: 50%;
+    image-resolution: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contentrow{
+    width: 63%;
+    height: 86%;
+    background-color: transparent;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.circle{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.heading-circle{
+    text-align: center;
+    font-size: 20px;
+    color: #007bff;
+    font-weight: 600;
+}
+
+.content{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.accuracy{
+    width: 16%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #666;
+    font-size: 19px;
+}
+.accuracy .accu h2{
+    text-wrap: nowrap;
+}
+
+.accu img{
+    height: 250px;
+}
+.Embark{
+    padding: 120px;
+    font-size: 46px;
+    font-weight: 700;
+    color: #007bff;
+    text-align: center;
+    width: 55%;
+    margin: 0px auto;}
+
+.final1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    
+}
+.dicoverdiv{
+    font-size: 19px;
+    color: #666;
+    width: 42%;
+}
+.discoverhead{
+    color: #333;
+    font-weight: 600;
+}
